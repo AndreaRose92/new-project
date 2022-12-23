@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  time_to_produce: 1
+  base_price: 1
+  image: MyString
+  made_from: MyString
+
+two:
+  name: MyString
+  time_to_produce: 1
+  base_price: 1
+  image: MyString
+  made_from: MyString

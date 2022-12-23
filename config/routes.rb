@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
-
-  # Defines the root path route ("/")
-  # root "articles#index"
+  resources :forages
+  resources :villagers
+  resources :artisan_goods
+  resources :animal_products
+  resources :crops
 end

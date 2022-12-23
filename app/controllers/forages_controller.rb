@@ -1,0 +1,2 @@
+class ForagesController < ApplicationController
+end

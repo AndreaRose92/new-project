@@ -1,0 +1,2 @@
+class Forage < ApplicationRecord
+end
