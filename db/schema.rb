@@ -42,7 +42,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_23_203718) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "forages", force: :cascade do |t|
+  create_table "foragables", force: :cascade do |t|
     t.string "name"
     t.string "season"
     t.integer "base_price"
