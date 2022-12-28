@@ -34,8 +34,10 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_23_203718) do
     t.string "name"
     t.integer "base_value"
     t.integer "time_to_harvest"
-    t.string "season"
-    t.boolean "multiple_harvest"
+    t.boolean "spring", default: false
+    t.boolean "summer", default: false
+    t.boolean "fall", default: false
+    t.boolean "multiple_harvest", default: false
     t.integer "time_to_next_harvest"
     t.string "image"
     t.datetime "created_at", null: false
